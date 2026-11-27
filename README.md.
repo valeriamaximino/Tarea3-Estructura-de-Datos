@@ -1,0 +1,53 @@
+
+# Tarea 3 - Estructura de Datos
+
+## Validador de registros y modelado de entidades
+
+### Descripcion
+El programa permite registrar y validar informacion de sensores ambientales utilizando Java.
+
+Se utilizan tipos de datos primitivos, clases, objetos y una estructura ArrayList para almacenar los registros.
+
+### Flujo del programa
+1. Se muestra un menu principal.
+2. El usuario selecciona una opcion.
+3. Puede ingresar los datos de un registro.
+4. El programa comprueba que los datos sean correctos.
+5. Si los datos son validos, se guardan.
+6. El usuario puede consultar los registros.
+7. El programa termina cuando se selecciona la opcion cero.
+
+### Descripcion de los pasos
+- Registro: solicita identificador, ubicacion, fecha, valor, unidad y estado.
+- Validacion: comprueba los rangos y formatos.
+- Consulta: muestra los registros almacenados.
+- Tipos de datos: presenta los tipos utilizados.
+
+### Como ejecutar
+1. Descargar los archivos Java.
+2. Abrirlos en un entorno de desarrollo compatible con Java.
+3. Compilar los archivos Registro.java, Validador.java y Main.java.
+4. Ejecutar la clase Main.
+5. Seleccionar una opcion del menu.
+
+### Resultados esperados
+El programa debe permitir guardar registros validos, rechazar datos incorrectos, mostrar la informacion almacenada y finalizar correctamente.
+
+### Estructura de archivos
+- Registro.java
+- Validador.java
+- Main.java
+- README.md
+
+### Tabla comparativa de tipos de datos
+
+| Tipo | Uso | Memoria aproximada |
+|---|---|---|
+| int | Identificador | 4 bytes |
+| double | Valor numerico | 8 bytes |
+| boolean | Estado | Dependiente de JVM |
+| char | Unidad | 2 bytes |
+| String | Texto | Variable |
+| Registro | Entidad compuesta | Variable |
+
+Nota: Los tamaños son referencias generales de Java. El consumo real de objetos depende de la JVM y su implementación.
